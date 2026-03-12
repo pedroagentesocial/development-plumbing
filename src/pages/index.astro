@@ -1,0 +1,18 @@
+---
+import HomePage from '../components/react/pages/HomePage';
+import MainLayout from '../layouts/MainLayout.astro';
+---
+
+<MainLayout
+	title="Utah Plumber | 24/7 Emergency and Same-Day Plumbing Service"
+	description="Licensed Utah plumber for emergency plumbing, drain cleaning, water heater repair, leak detection, sewer line service, and commercial plumbing."
+	pathname="/"
+	faqSchema={true}
+	serviceSchema={{
+		name: 'Utah Plumbing Services',
+		description:
+			'Local plumbing company in Utah providing emergency response and same-day service for homes, rentals, and commercial properties.'
+	}}
+>
+	<HomePage client:load />
+</MainLayout>

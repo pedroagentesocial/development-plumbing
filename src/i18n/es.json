@@ -1,0 +1,394 @@
+{
+	"locale": "es",
+	"brand": {
+		"name": "Summit Flow Plumbing",
+		"tagline": "Plomería de emergencia y mismo día en Utah",
+		"phoneDisplay": "(801) 555-0148",
+		"phoneRaw": "+18015550148",
+		"email": "service@summitflowplumbing.com",
+		"address": "2150 South 1300 East, Salt Lake City, UT 84106",
+		"hours": "Emergencias 24/7",
+		"license": "Licencia y seguro en Utah #UT-PL-29410",
+		"whatsapp": "+18015550148"
+	},
+	"actions": {
+		"callNow": "Llama ahora",
+		"scheduleService": "Agenda servicio hoy",
+		"requestQuote": "Solicitar estimado gratis",
+		"sendMessage": "Enviar mensaje",
+		"viewServices": "Ver servicios",
+		"getEmergencyHelp": "Atención de emergencia",
+		"switchLanguage": "EN",
+		"toggleLanguageAria": "Cambiar idioma"
+	},
+	"labels": {
+		"step": "Paso",
+		"learnMore": "Ver más",
+		"utahService": "Servicio en Utah",
+		"popularServices": "Servicios populares",
+		"verifiedReview": "Reseña verificada",
+		"verifiedService": "Servicio verificado",
+		"jobLabel": "Trabajo",
+		"year": "2026"
+	},
+	"badges": {
+		"licensed": "Licenciados",
+		"insured": "Asegurados",
+		"sameDayService": "Servicio el mismo día",
+		"sameDayScheduling": "Agenda el mismo día",
+		"emergency247": "Emergencias 24/7",
+		"residential": "Residencial",
+		"commercial": "Comercial",
+		"utahLocal": "Local de Utah"
+	},
+	"nav": {
+		"home": "Inicio",
+		"services": "Servicios",
+		"emergency": "Emergencias",
+		"areas": "Cobertura",
+		"reviews": "Reseñas",
+		"about": "Nosotros",
+		"contact": "Contacto"
+	},
+	"trustBar": [
+		"Despacho local en vivo, sin largas esperas",
+		"Cotización clara antes de comenzar",
+		"Técnicos licenciados y asegurados en Utah",
+		"Confianza de familias y administradores de propiedad"
+	],
+	"home": {
+		"hero": {
+			"kicker": "Plomería local en Utah",
+			"headline": "Plomeros en Utah para emergencias y servicio el mismo día",
+			"subheadline": "Si eres dueño de casa o administras propiedades, resolvemos rápido fugas, drenajes, boiler y líneas sanitarias con trabajo profesional y limpio.",
+			"imageAlt": "Plomero con licencia reparando una instalación residencial en Utah",
+			"imageCaption": "Cuadrillas locales en Salt Lake County, Utah County, Davis County y zonas cercanas",
+			"trustChips": ["Licenciados", "Asegurados", "Servicio el mismo día", "Emergencias 24/7"],
+			"stats": [
+				{ "label": "Servicios en Utah este año", "value": "1,200+" },
+				{ "label": "Respuesta típica en emergencia", "value": "Menos de 60 min" },
+				{ "label": "Calificación promedio", "value": "4.9 / 5" }
+			],
+			"microTrust": [
+				"Citas el mismo día para casos urgentes",
+				"Opciones claras antes de autorizar",
+				"Trabajo respaldado con garantía"
+			]
+		},
+		"scheduleBlock": {
+			"copy": "Cuéntanos qué está pasando y en qué ciudad. Te confirmamos llegada, plan de trabajo y próximos pasos en minutos."
+		},
+		"servicesTitle": "Servicios principales",
+		"servicesHeading": "Soluciones de plomería para casas, propiedades de renta y comercios",
+		"whyTitle": "Por qué en Utah nos llaman primero",
+		"whyHeading": "Más rapidez, mejor diagnóstico y menos problemas repetidos",
+		"whyItems": [
+			{
+				"title": "Respuesta rápida para evitar daños",
+				"description": "Cuando hay fuga activa, actuamos de inmediato para contener agua y proteger tu propiedad."
+			},
+			{
+				"title": "Diagnóstico correcto antes de reparar",
+				"description": "Usamos cámara y pruebas técnicas para corregir la causa real, no solo el síntoma."
+			},
+			{
+				"title": "Comunicación clara para dueños y managers",
+				"description": "Recibes avances, hallazgos y opciones en lenguaje claro para decidir con seguridad."
+			},
+			{
+				"title": "Equipo local, licenciado y confiable",
+				"description": "Técnicos respetuosos, trabajo limpio y reparación alineada al código de Utah."
+			}
+		],
+		"emergency": {
+			"title": "¿Tienes una emergencia de plomería?",
+			"copy": "Tubería reventada, fuga activa, drenaje desbordado, sin agua caliente o respaldo de alcantarillado. Llama y te mandamos apoyo inmediato."
+		},
+		"howItWorksTitle": "Cómo trabajamos",
+		"howItWorksHeading": "Proceso simple para emergencias y servicios programados",
+		"howItWorks": [
+			{
+				"title": "Llama, manda mensaje o solicita en línea",
+				"description": "Comparte el problema, tipo de propiedad y ciudad para atenderte más rápido."
+			},
+			{
+				"title": "Te confirmamos ventana y plan de servicio",
+				"description": "Te explicamos alcance probable, tiempos y forma de cotización antes de iniciar."
+			},
+			{
+				"title": "Reparamos, probamos y documentamos",
+				"description": "Terminamos el trabajo, validamos funcionamiento y te explicamos resultados."
+			}
+		],
+		"reviewsTitle": "Reseñas de clientes en Utah",
+		"reviewsHeading": "Familias y administradores confían en nuestra respuesta y calidad",
+		"areasTitle": "Áreas de servicio en Utah",
+		"areasHeading": "Cobertura con despacho rápido en corredores residenciales y comerciales",
+		"faqTitle": "Preguntas frecuentes",
+		"faqHeading": "Respuestas claras antes de agendar",
+		"faq": [
+			{
+				"question": "¿En cuánto tiempo pueden llegar en una emergencia?",
+				"answer": "En la mayoría de zonas llegamos en menos de 60 minutos. El tiempo final depende de clima, tráfico y demanda activa."
+			},
+			{
+				"question": "¿Me dan precio antes de empezar?",
+				"answer": "Sí. Siempre te explicamos opciones, alcance y costo antes de autorizar el servicio."
+			},
+			{
+				"question": "¿Atienden casas y propiedades comerciales?",
+				"answer": "Sí. Trabajamos con viviendas, renta residencial, oficinas, locales, restaurantes y edificios multiunidad."
+			},
+			{
+				"question": "¿También manejan drenajes, water heater, fugas y línea de alcantarillado?",
+				"answer": "Sí. Son servicios clave de nuestro equipo, incluyendo emergencias 24/7 y atención el mismo día."
+			},
+			{
+				"question": "¿Tienen licencia y seguro en Utah?",
+				"answer": "Sí. Nuestro equipo está licenciado y asegurado para cumplir normas de seguridad y código local."
+			}
+		],
+		"finalCtaTitle": "¿Necesitas plomería confiable hoy en Utah?",
+		"finalCtaCopy": "Llama ahora para emergencia o agenda servicio el mismo día en minutos."
+	},
+	"servicesList": [
+		{
+			"title": "Plomería de Emergencia",
+			"description": "Atención 24/7 para fugas activas, tuberías reventadas, desbordes y cierres urgentes de agua.",
+			"href": "/emergency-plumbing"
+		},
+		{
+			"title": "Limpieza de Drenajes",
+			"description": "Destape rápido de cocina, baño, piso y línea principal con verificación por cámara.",
+			"href": "/drain-cleaning"
+		},
+		{
+			"title": "Reparación e Instalación de Water Heater",
+			"description": "Sin agua caliente? Diagnóstico, reparación e instalación de sistemas de tanque y tankless.",
+			"href": "/water-heater-repair-installation"
+		},
+		{
+			"title": "Detección de Fugas",
+			"description": "Ubicamos fugas ocultas en muros, losa y líneas internas antes de que escalen daños.",
+			"href": "/leak-detection"
+		},
+		{
+			"title": "Servicio de Línea de Alcantarillado",
+			"description": "Inspección por video, reparación puntual y reemplazo completo para fallas de alcantarillado.",
+			"href": "/sewer-line"
+		},
+		{
+			"title": "Plomería Comercial",
+			"description": "Respuesta rápida y planes de mantenimiento para oficinas, retail, restaurantes y propiedades administradas.",
+			"href": "/commercial-plumbing"
+		}
+	],
+	"servicePages": {
+		"urgentBoxTitle": "¿Necesitas despacho urgente?",
+		"urgentBoxCopy": "Llama ahora y enviamos al técnico disponible más cercano a tu ubicación.",
+		"emergency": {
+			"title": "Plomería de Emergencia en Utah",
+			"subtitle": "Atención inmediata para fugas, tuberías reventadas, desbordes y respaldos sanitarios.",
+			"benefits": [
+				"Despacho en vivo con respuesta rápida",
+				"Primero controlamos daños para proteger la propiedad",
+				"Trabajo licenciado con respaldo profesional"
+			]
+		},
+		"drain": {
+			"title": "Servicio de Limpieza de Drenajes",
+			"subtitle": "Solución real para drenajes lentos, obstrucciones recurrentes y malos olores.",
+			"benefits": [
+				"Destape en cocina, baño, piso y línea principal",
+				"Diagnóstico por cámara para detectar la causa raíz",
+				"Planes preventivos para propiedades con alto uso"
+			]
+		},
+		"waterHeater": {
+			"title": "Reparación e Instalación de Water Heater",
+			"subtitle": "Recupera agua caliente confiable con reparación o cambio bien hecho.",
+			"benefits": [
+				"Diagnóstico y reparación de tanque y tankless",
+				"Recomendación del equipo ideal para tu consumo",
+				"Instalación segura y conforme a código de Utah"
+			]
+		},
+		"leak": {
+			"title": "Especialistas en Detección de Fugas",
+			"subtitle": "Detecta fugas ocultas a tiempo y evita daños estructurales costosos.",
+			"benefits": [
+				"Diagnóstico acústico y por presión",
+				"Detección en muros, losa, riego y accesorios",
+				"Plan de reparación claro y accionable"
+			]
+		},
+		"sewer": {
+			"title": "Reparación y Reemplazo de Alcantarillado",
+			"subtitle": "Resuelve respaldos y fallas de línea sanitaria con diagnóstico preciso.",
+			"benefits": [
+				"Inspección por video con reporte claro",
+				"Reparación puntual o reemplazo completo",
+				"Ejecución limpia para residencial y comercial"
+			]
+		},
+		"commercial": {
+			"title": "Soluciones de Plomería Comercial",
+			"subtitle": "Reduce tiempos muertos con soporte rápido y profesional para tu negocio.",
+			"benefits": [
+				"Prioridad en incidencias críticas",
+				"Mantenimiento para oficinas, retail y restaurantes",
+				"Coordinación clara con administración y facility teams"
+			]
+		}
+	},
+	"servicesPage": {
+		"title": "Servicios de plomería para la realidad de Utah",
+		"subtitle": "Emergencias, reparación el mismo día y soporte preventivo para hogares y propiedades comerciales."
+	},
+	"aboutPage": {
+		"title": "Equipo local para hogares y propiedades en Utah",
+		"lead": "En Summit Flow Plumbing combinamos rapidez, ejecución técnica y comunicación profesional para dueños y administradores.",
+		"points": [
+			"Técnicos con experiencia residencial y comercial",
+			"Comunicación clara desde el despacho hasta el cierre",
+			"Trabajo enfocado en seguridad, confiabilidad y duración"
+		]
+	},
+	"areasPage": {
+		"title": "Áreas de servicio en Utah",
+		"subtitle": "Cobertura principal en el Wasatch Front y comunidades cercanas.",
+		"dispatchHeading": "Ciudades con despacho activo en Utah",
+		"expansionHeading": "Base lista para crecer con SEO por ciudad",
+		"expansionCopy": "Cada enlace de ciudad usa una arquitectura escalable en /service-areas/nombre-ciudad y se puede ampliar con contenido local único y señales de intención geográfica.",
+		"cities": [
+			"Salt Lake City",
+			"West Valley City",
+			"Provo",
+			"Orem",
+			"Sandy",
+			"Ogden",
+			"St. George",
+			"Layton",
+			"South Jordan",
+			"Lehi",
+			"Draper",
+			"Murray",
+			"Bountiful"
+		]
+	},
+	"reviewsPage": {
+		"title": "Reseñas verificadas de clientes",
+		"subtitle": "Comentarios recientes de familias, negocios y administradores en Utah.",
+		"platform": "Google Reviews",
+		"badge": "Reseña en Google",
+		"trustHeadline": "Confianza real de familias y property managers en Utah",
+		"basedOn": "Basado en Google Reviews",
+		"averageScore": "4.9/5",
+		"marqueeAria": "Banda de reseñas de Google de clientes en Utah",
+		"staticAria": "Reseñas de Google de clientes en Utah",
+		"ratingLabel": "5 de 5 estrellas",
+		"items": [
+			{
+				"name": "Brandon Hale",
+				"city": "Sandy",
+				"timeAgo": "hace 2 semanas",
+				"avatar": "/images/placeholders/reviews/reviewer-brandon-hale.svg",
+				"text": "Se reventó una tubería al amanecer y contestaron en segundos. Llegaron rápido, controlaron el agua y nos explicaron todo con mucha claridad."
+			},
+			{
+				"name": "Monica Alvarez",
+				"city": "West Valley City",
+				"timeAgo": "hace 1 mes",
+				"avatar": "/images/placeholders/reviews/reviewer-monica-alvarez.svg",
+				"text": "Administramos varias unidades y teníamos obstrucciones repetidas. Hicieron inspección con cámara, detectaron la causa y lo resolvieron ese mismo día."
+			},
+			{
+				"name": "Alicia Park",
+				"city": "Provo",
+				"timeAgo": "hace 3 semanas",
+				"avatar": "/images/placeholders/reviews/reviewer-alicia-park.svg",
+				"text": "Se nos dañó el water heater en un día complicado. Nos dieron opciones claras, instalaron ese mismo día y verificaron todo antes de irse."
+			},
+			{
+				"name": "Ethan Coleman",
+				"city": "Lehi",
+				"timeAgo": "hace 6 días",
+				"avatar": "/images/placeholders/reviews/reviewer-ethan-coleman.svg",
+				"text": "Muy puntuales y muy limpios al trabajar. Detectaron una fuga oculta detrás del área de lavado y evitaron romper de más."
+			},
+			{
+				"name": "Jasmine Reed",
+				"city": "South Jordan",
+				"timeAgo": "hace 5 semanas",
+				"avatar": "/images/placeholders/reviews/reviewer-jasmine-reed.svg",
+				"text": "Llamé por un desborde urgente y pensé que sería un caos. Llegaron rápido, trabajaron con orden y el precio quedó claro desde el inicio."
+			},
+			{
+				"name": "Trevor Kim",
+				"city": "Ogden",
+				"timeAgo": "hace 2 meses",
+				"avatar": "/images/placeholders/reviews/reviewer-trevor-kim.svg",
+				"text": "Teníamos olor a drenaje y flujo lento en un local comercial. Encontraron la falla con videoinspección y coordinaron todo sin afectar operaciones."
+			},
+			{
+				"name": "Rosa Jimenez",
+				"city": "Orem",
+				"timeAgo": "hace 9 días",
+				"avatar": "/images/placeholders/reviews/reviewer-rosa-jimenez.svg",
+				"text": "Excelente experiencia. Agenda rápida, trato profesional y dejaron el área de trabajo impecable. Se nota que tienen mucha experiencia."
+			},
+			{
+				"name": "Grant Wallace",
+				"city": "Salt Lake City",
+				"timeAgo": "hace 4 meses",
+				"avatar": "/images/placeholders/reviews/reviewer-grant-wallace.svg",
+				"text": "Necesitábamos soporte comercial en un edificio con varios inquilinos. Su comunicación con administración fue impecable y cumplieron tiempos."
+			}
+		]
+	},
+	"contactPage": {
+		"title": "Solicita servicio de plomería en Utah",
+		"subtitle": "Llama para emergencias o envía tu solicitud para servicio el mismo día.",
+		"form": {
+			"name": "Nombre completo o empresa",
+			"phone": "Mejor teléfono de contacto",
+			"email": "Correo electrónico",
+			"city": "Ciudad del servicio",
+			"service": "Selecciona el servicio",
+			"message": "Describe el problema y qué tan urgente es",
+			"submit": "Quiero servicio ahora",
+			"privacy": "Al enviar este formulario, autorizas a Summit Flow Plumbing a contactarte sobre esta solicitud."
+		}
+	},
+	"preFooter": {
+		"leftEyebrow": "¿Listo para agendar?",
+		"leftActionLabel": "Agenda en minutos",
+		"leftPoints": [
+			"Despacho 24/7 para emergencias reales de plomería",
+			"Técnicos locales con licencia y comunicación clara",
+			"Disponibilidad el mismo día en zonas clave de Utah",
+			"Pasos y alcance definidos antes de iniciar"
+		],
+		"rightEyebrow": "Contacto local",
+		"rightTitle": "Habla ahora con un especialista en Utah",
+		"rightSubtitle": "Atención rápida por teléfono, pasos claros y cobertura local en las zonas con mayor demanda.",
+		"panelAriaLabel": "Panel de contacto con teléfono, ubicación y redes sociales",
+		"phoneLabel": "Línea de despacho prioritario",
+		"locationLabel": "Zona de servicio",
+		"locationValue": "Salt Lake City metro, Utah County, Davis County y ciudades cercanas",
+		"locationLink": "Ver todas las áreas de servicio",
+		"socialLabel": "Conecta con nosotros",
+		"emailHint": "Correo general:",
+		"socials": {
+			"facebook": "Facebook",
+			"instagram": "Instagram",
+			"googleBusiness": "Google Business"
+		}
+	},
+	"footer": {
+		"quickLinks": "Enlaces rápidos",
+		"serviceAreas": "Cobertura en Utah",
+		"contact": "Contacto",
+		"copyright": "© 2026 Summit Flow Plumbing. Todos los derechos reservados."
+	}
+}

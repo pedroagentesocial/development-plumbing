@@ -1,0 +1,17 @@
+---
+import MainLayout from '../layouts/MainLayout.astro';
+import { DrainCleaningPage } from '../components/react/pages/StandardPages';
+---
+
+<MainLayout
+	title="Drain Cleaning in Utah | Same-Day Clog Removal & Camera Diagnostics"
+	description="Utah drain cleaning for recurring clogs, slow drains, odors, and main line issues with same-day service and camera-based diagnostics."
+	pathname="/drain-cleaning"
+	serviceSchema={{
+		name: 'Drain Cleaning in Utah',
+		description:
+			'Same-day drain cleaning in Utah for kitchen, bathroom, floor, and main line blockages with root-cause diagnostics.'
+	}}
+>
+	<DrainCleaningPage client:load />
+</MainLayout>

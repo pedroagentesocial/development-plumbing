@@ -1,0 +1,17 @@
+---
+import MainLayout from '../layouts/MainLayout.astro';
+import { LeakDetectionPage } from '../components/react/pages/StandardPages';
+---
+
+<MainLayout
+	title="Leak Detection in Utah | Slab, Wall, and Hidden Line Leaks"
+	description="Professional leak detection in Utah to locate slab, wall, and concealed plumbing leaks early before moisture damage and costly repairs escalate."
+	pathname="/leak-detection"
+	serviceSchema={{
+		name: 'Leak Detection in Utah',
+		description:
+			'Utah leak detection service for slab leaks, wall leaks, and hidden water line issues using non-invasive diagnostics.'
+	}}
+>
+	<LeakDetectionPage client:load />
+</MainLayout>

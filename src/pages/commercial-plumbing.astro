@@ -1,0 +1,17 @@
+---
+import MainLayout from '../layouts/MainLayout.astro';
+import { CommercialPlumbingPage } from '../components/react/pages/StandardPages';
+---
+
+<MainLayout
+	title="Commercial Plumbing in Utah | Priority Service for Business Properties"
+	description="Commercial plumbing in Utah for offices, retail, restaurants, and managed properties with priority dispatch, repair, and preventive support."
+	pathname="/commercial-plumbing"
+	serviceSchema={{
+		name: 'Commercial Plumbing in Utah',
+		description:
+			'Commercial plumbing support in Utah with priority dispatch, maintenance plans, and urgent repair service for business properties.'
+	}}
+>
+	<CommercialPlumbingPage client:load />
+</MainLayout>

@@ -1,0 +1,17 @@
+---
+import MainLayout from '../layouts/MainLayout.astro';
+import { EmergencyPage } from '../components/react/pages/StandardPages';
+---
+
+<MainLayout
+	title="Emergency Plumber in Utah | 24/7 Dispatch for Burst Pipes & Leaks"
+	description="Call a Utah emergency plumber for burst pipes, active leaks, overflows, sewer backups, and no-hot-water situations with rapid dispatch."
+	pathname="/emergency-plumbing"
+	serviceSchema={{
+		name: 'Emergency Plumbing in Utah',
+		description:
+			'24/7 emergency plumbing service for burst pipes, active leaks, overflows, sewer backups, and urgent plumbing failures across Utah.'
+	}}
+>
+	<EmergencyPage client:load />
+</MainLayout>

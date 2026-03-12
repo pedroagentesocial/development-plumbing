@@ -1,0 +1,394 @@
+{
+	"locale": "en",
+	"brand": {
+		"name": "Summit Flow Plumbing",
+		"tagline": "Emergency and Same-Day Plumbing Across Utah",
+		"phoneDisplay": "(801) 555-0148",
+		"phoneRaw": "+18015550148",
+		"email": "service@summitflowplumbing.com",
+		"address": "2150 South 1300 East, Salt Lake City, UT 84106",
+		"hours": "24/7 Emergency Dispatch",
+		"license": "UT Licensed & Insured #UT-PL-29410",
+		"whatsapp": "+18015550148"
+	},
+	"actions": {
+		"callNow": "Call now",
+		"scheduleService": "Schedule same-day service",
+		"requestQuote": "Request free estimate",
+		"sendMessage": "Send message",
+		"viewServices": "Explore services",
+		"getEmergencyHelp": "Get emergency help",
+		"switchLanguage": "ES",
+		"toggleLanguageAria": "Change language"
+	},
+	"labels": {
+		"step": "Step",
+		"learnMore": "Learn more",
+		"utahService": "Utah Service",
+		"popularServices": "Popular Services",
+		"verifiedReview": "Verified review",
+		"verifiedService": "Verified service",
+		"jobLabel": "Job",
+		"year": "2026"
+	},
+	"badges": {
+		"licensed": "Licensed",
+		"insured": "Insured",
+		"sameDayService": "Same-Day Service",
+		"sameDayScheduling": "Same-Day Scheduling",
+		"emergency247": "24/7 Emergency",
+		"residential": "Residential",
+		"commercial": "Commercial",
+		"utahLocal": "Utah Local"
+	},
+	"nav": {
+		"home": "Home",
+		"services": "Services",
+		"emergency": "Emergency",
+		"areas": "Service Areas",
+		"reviews": "Reviews",
+		"about": "About",
+		"contact": "Contact"
+	},
+	"trustBar": [
+		"Live local dispatch, not a call center queue",
+		"Upfront options and pricing before work starts",
+		"Licensed and insured technicians for Utah code compliance",
+		"Trusted by homeowners and property managers statewide"
+	],
+	"home": {
+		"hero": {
+			"kicker": "Utah Local Plumbing",
+			"headline": "Emergency and same-day plumbing for Utah homes and managed properties",
+			"subheadline": "From burst pipes to sewer backups, we dispatch fast, diagnose accurately, and complete repairs that hold up under real use.",
+			"imageAlt": "Licensed plumber repairing a residential plumbing system in Utah",
+			"imageCaption": "Field teams serving Salt Lake County, Utah County, Davis County, and nearby cities",
+			"trustChips": ["Licensed", "Insured", "Same-Day Service", "24/7 Emergency Dispatch"],
+			"stats": [
+				{ "label": "Utah service calls this year", "value": "1,200+" },
+				{ "label": "Typical emergency response", "value": "Under 60 min" },
+				{ "label": "Average customer rating", "value": "4.9 / 5" }
+			],
+			"microTrust": [
+				"Same-day appointments for urgent issues",
+				"Clear scope and pricing before approval",
+				"Workmanship backed by service warranty"
+			]
+		},
+		"scheduleBlock": {
+			"copy": "Tell us what is happening and where. We confirm arrival window, service plan, and next steps in minutes."
+		},
+		"servicesTitle": "Core services",
+		"servicesHeading": "High-demand plumbing solutions for homes, rentals, and commercial properties",
+		"whyTitle": "Why people in Utah call Summit Flow first",
+		"whyHeading": "Faster response, cleaner execution, and fewer repeat problems",
+		"whyItems": [
+			{
+				"title": "Rapid dispatch that protects property",
+				"description": "When water is spreading, speed matters. We prioritize containment and immediate stabilization."
+			},
+			{
+				"title": "Accurate diagnostics before repair",
+				"description": "We use camera inspections and pressure testing to fix root causes, not just symptoms."
+			},
+			{
+				"title": "Professional communication for owners and managers",
+				"description": "You get clear updates, documented findings, and straightforward options."
+			},
+			{
+				"title": "Licensed local team you can trust onsite",
+				"description": "Respectful technicians, clean work areas, and code-compliant workmanship."
+			}
+		],
+		"emergency": {
+			"title": "Plumbing emergency right now?",
+			"copy": "Burst pipe, active leak, drain overflow, no hot water, sewer backup. Call now and we dispatch the nearest available technician."
+		},
+		"howItWorksTitle": "How service works",
+		"howItWorksHeading": "A simple process built for urgent and planned plumbing jobs",
+		"howItWorks": [
+			{
+				"title": "Call, text, or submit your request",
+				"description": "Tell us your issue, property type, and city so we route correctly."
+			},
+			{
+				"title": "Get confirmation and service plan",
+				"description": "We provide response window, likely scope, and pricing approach before work."
+			},
+			{
+				"title": "Repair, test, and document",
+				"description": "We complete repairs, verify system performance, and walk you through results."
+			}
+		],
+		"reviewsTitle": "Reviews from Utah customers",
+		"reviewsHeading": "Homeowners and property managers trust our response and workmanship",
+		"areasTitle": "Service areas in Utah",
+		"areasHeading": "Dispatch coverage across key residential and commercial corridors",
+		"faqTitle": "Frequently asked questions",
+		"faqHeading": "Clear answers before you schedule",
+		"faq": [
+			{
+				"question": "How fast can you arrive for an emergency call?",
+				"answer": "In most covered areas, emergency dispatch is under 60 minutes. Timing depends on weather, traffic, and active call volume."
+			},
+			{
+				"question": "Do you provide pricing before the work starts?",
+				"answer": "Yes. We explain options, scope, and pricing first so you can approve the right solution for your property."
+			},
+			{
+				"question": "Do you service both residential and commercial properties?",
+				"answer": "Yes. We work with homeowners, property managers, office suites, retail units, restaurants, and multi-unit buildings."
+			},
+			{
+				"question": "Can you handle drain, water heater, leak, and sewer line issues?",
+				"answer": "Yes. Those are core services, including emergency plumbing, same-day drain cleaning, leak detection, and sewer diagnostics."
+			},
+			{
+				"question": "Are your plumbers licensed and insured in Utah?",
+				"answer": "Absolutely. Our technicians are licensed, insured, and trained to meet Utah code and safety requirements."
+			}
+		],
+		"finalCtaTitle": "Need a reliable Utah plumber today?",
+		"finalCtaCopy": "Call now for emergency response or book same-day service in minutes."
+	},
+	"servicesList": [
+		{
+			"title": "Emergency Plumbing",
+			"description": "24/7 response for active leaks, burst pipes, overflows, and urgent shutoff situations.",
+			"href": "/emergency-plumbing"
+		},
+		{
+			"title": "Drain Cleaning",
+			"description": "Fast drain clearing for kitchen, bath, floor, and main line blockages with camera verification.",
+			"href": "/drain-cleaning"
+		},
+		{
+			"title": "Water Heater Repair & Installation",
+			"description": "No hot water? We diagnose, repair, and install tank or tankless systems the right way.",
+			"href": "/water-heater-repair-installation"
+		},
+		{
+			"title": "Leak Detection",
+			"description": "Find hidden leaks in walls, slabs, and irrigation lines before damage spreads.",
+			"href": "/leak-detection"
+		},
+		{
+			"title": "Sewer Line Service",
+			"description": "Video inspection, targeted repair, and full replacement options for sewer line failures.",
+			"href": "/sewer-line"
+		},
+		{
+			"title": "Commercial Plumbing",
+			"description": "Responsive service and maintenance plans for offices, retail, restaurants, and managed sites.",
+			"href": "/commercial-plumbing"
+		}
+	],
+	"servicePages": {
+		"urgentBoxTitle": "Need urgent dispatch?",
+		"urgentBoxCopy": "Call now and we route the nearest available technician to your location.",
+		"emergency": {
+			"title": "Emergency Plumbing in Utah",
+			"subtitle": "Immediate response for burst pipes, overflows, backups, and active leaks.",
+			"benefits": [
+				"Live dispatch and rapid response windows",
+				"Immediate containment to limit property damage",
+				"Licensed repair work documented for your records"
+			]
+		},
+		"drain": {
+			"title": "Drain Cleaning Services",
+			"subtitle": "Resolve recurring clogs, slow drains, and sewage odors with verified cleaning.",
+			"benefits": [
+				"Kitchen, bath, floor drain, and main line service",
+				"Camera inspection to identify root blockage source",
+				"Preventive plans for rentals and managed properties"
+			]
+		},
+		"waterHeater": {
+			"title": "Water Heater Repair & Installation",
+			"subtitle": "Restore dependable hot water fast with expert repair or replacement.",
+			"benefits": [
+				"Tank and tankless diagnostics and repair",
+				"Right-sized replacement recommendations",
+				"Safe, code-compliant installation and testing"
+			]
+		},
+		"leak": {
+			"title": "Leak Detection Specialists",
+			"subtitle": "Detect hidden leaks early and protect walls, flooring, and foundations.",
+			"benefits": [
+				"Acoustic and pressure-based diagnostic methods",
+				"Slab, wall, fixture, and irrigation leak location",
+				"Clear next-step repair recommendations"
+			]
+		},
+		"sewer": {
+			"title": "Sewer Line Repair & Replacement",
+			"subtitle": "Resolve sewer line backups and failures with precise diagnostics and repair.",
+			"benefits": [
+				"Video inspection with clear condition reporting",
+				"Spot repair and full replacement options",
+				"Clean execution for homes and commercial properties"
+			]
+		},
+		"commercial": {
+			"title": "Commercial Plumbing Solutions",
+			"subtitle": "Keep operations running with fast response and professional plumbing support.",
+			"benefits": [
+				"Priority response for business-critical issues",
+				"Service plans for offices, retail, and food service",
+				"Clear coordination with property and facility teams"
+			]
+		}
+	},
+	"servicesPage": {
+		"title": "Plumbing services built for Utah demand",
+		"subtitle": "Emergency response, same-day repair, and proactive plumbing support for residential and commercial properties."
+	},
+	"aboutPage": {
+		"title": "Local plumbing partner for homeowners and property managers",
+		"lead": "Summit Flow Plumbing delivers responsive field service, technical accuracy, and professional communication across Utah.",
+		"points": [
+			"Experienced technicians for residential and commercial systems",
+			"Clear updates from dispatch through completion",
+			"Repairs focused on reliability, safety, and long-term performance"
+		]
+	},
+	"areasPage": {
+		"title": "Utah service areas",
+		"subtitle": "Primary dispatch coverage across the Wasatch Front and nearby communities.",
+		"dispatchHeading": "Cities we actively dispatch in Utah",
+		"expansionHeading": "Prepared for city-specific SEO expansion",
+		"expansionCopy": "Each city link follows a scalable URL architecture at /service-areas/city-name and can be expanded with unique local references, service proof, and neighborhood-level intent.",
+		"cities": [
+			"Salt Lake City",
+			"West Valley City",
+			"Provo",
+			"Orem",
+			"Sandy",
+			"Ogden",
+			"St. George",
+			"Layton",
+			"South Jordan",
+			"Lehi",
+			"Draper",
+			"Murray",
+			"Bountiful"
+		]
+	},
+	"reviewsPage": {
+		"title": "Verified customer reviews",
+		"subtitle": "Recent feedback from Utah homeowners, tenants, and property managers.",
+		"platform": "Google Reviews",
+		"badge": "Google Review",
+		"trustHeadline": "Trusted by Utah homeowners and property managers",
+		"basedOn": "Based on Google Reviews",
+		"averageScore": "4.9/5",
+		"marqueeAria": "Scrolling Google Reviews from Utah customers",
+		"staticAria": "Google Reviews from Utah customers",
+		"ratingLabel": "5 out of 5 stars",
+		"items": [
+			{
+				"name": "Brandon Hale",
+				"city": "Sandy",
+				"timeAgo": "2 weeks ago",
+				"avatar": "/images/placeholders/reviews/reviewer-brandon-hale.svg",
+				"text": "Our basement line burst at 5:40 AM. They answered on the first call, arrived fast, shut everything down safely, and explained each repair step clearly."
+			},
+			{
+				"name": "Monica Alvarez",
+				"city": "West Valley City",
+				"timeAgo": "1 month ago",
+				"avatar": "/images/placeholders/reviews/reviewer-monica-alvarez.svg",
+				"text": "We manage 14 units and had repeat drain backups. Their technician camera-scoped the line, showed us the blockage source, and fixed it the same day."
+			},
+			{
+				"name": "Alicia Park",
+				"city": "Provo",
+				"timeAgo": "3 weeks ago",
+				"avatar": "/images/placeholders/reviews/reviewer-alicia-park.svg",
+				"text": "Water heater failed right before guests arrived. They gave two honest options, installed a new unit that afternoon, and tested pressure and temperature before leaving."
+			},
+			{
+				"name": "Ethan Coleman",
+				"city": "Lehi",
+				"timeAgo": "6 days ago",
+				"avatar": "/images/placeholders/reviews/reviewer-ethan-coleman.svg",
+				"text": "Very punctual, very clean, and no upsell pressure. They tracked a hidden leak behind a laundry wall and kept the drywall cut minimal."
+			},
+			{
+				"name": "Jasmine Reed",
+				"city": "South Jordan",
+				"timeAgo": "5 weeks ago",
+				"avatar": "/images/placeholders/reviews/reviewer-jasmine-reed.svg",
+				"text": "I called for an emergency overflow and expected chaos. Instead, they were calm, fast, and professional. Pricing was clear before the repair started."
+			},
+			{
+				"name": "Trevor Kim",
+				"city": "Ogden",
+				"timeAgo": "2 months ago",
+				"avatar": "/images/placeholders/reviews/reviewer-trevor-kim.svg",
+				"text": "Sewer smell and slow drains in a retail space. They found the issue with video inspection, fixed the failing section, and coordinated around business hours."
+			},
+			{
+				"name": "Rosa Jimenez",
+				"city": "Orem",
+				"timeAgo": "9 days ago",
+				"avatar": "/images/placeholders/reviews/reviewer-rosa-jimenez.svg",
+				"text": "Best plumbing experience we have had in Utah County. Fast scheduling, respectful team, and they left the work area cleaner than they found it."
+			},
+			{
+				"name": "Grant Wallace",
+				"city": "Salt Lake City",
+				"timeAgo": "4 months ago",
+				"avatar": "/images/placeholders/reviews/reviewer-grant-wallace.svg",
+				"text": "We needed commercial service at a multi-tenant building. Communication was excellent with our property team and they completed work exactly when promised."
+			}
+		]
+	},
+	"contactPage": {
+		"title": "Request plumbing service in Utah",
+		"subtitle": "Call now for emergencies or send a quick request for same-day service.",
+		"form": {
+			"name": "Full name or company",
+			"phone": "Best phone number",
+			"email": "Email address",
+			"city": "Service city",
+			"service": "Select service",
+			"message": "Briefly describe the issue and urgency",
+			"submit": "Get service now",
+			"privacy": "By submitting this form, you authorize Summit Flow Plumbing to contact you about this request."
+		}
+	},
+	"preFooter": {
+		"leftEyebrow": "Ready to schedule?",
+		"leftActionLabel": "Book in minutes",
+		"leftPoints": [
+			"24/7 dispatch for urgent plumbing issues",
+			"Licensed local technicians with clear communication",
+			"Same-day scheduling across major Utah service areas",
+			"Transparent next steps before work begins"
+		],
+		"rightEyebrow": "Local contact",
+		"rightTitle": "Talk to a Utah specialist now",
+		"rightSubtitle": "Fast phone support, clear next steps, and local coverage across major Utah service areas.",
+		"panelAriaLabel": "Contact panel with phone, location, and social links",
+		"phoneLabel": "Priority dispatch line",
+		"locationLabel": "Service area",
+		"locationValue": "Salt Lake City metro, Utah County, Davis County, and nearby cities",
+		"locationLink": "View all service areas",
+		"socialLabel": "Connect with us",
+		"emailHint": "General email:",
+		"socials": {
+			"facebook": "Facebook",
+			"instagram": "Instagram",
+			"googleBusiness": "Google Business"
+		}
+	},
+	"footer": {
+		"quickLinks": "Quick links",
+		"serviceAreas": "Utah service areas",
+		"contact": "Contact",
+		"copyright": "© 2026 Summit Flow Plumbing. All rights reserved."
+	}
+}

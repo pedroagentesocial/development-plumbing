@@ -1,0 +1,12 @@
+---
+import MainLayout from '../layouts/MainLayout.astro';
+import { ReviewsPage } from '../components/react/pages/StandardPages';
+---
+
+<MainLayout
+	title="Plumbing Reviews in Utah | Summit Flow Plumbing"
+	description="Read verified reviews from Utah homeowners and businesses who trust Summit Flow Plumbing for fast and reliable service."
+	pathname="/reviews"
+>
+	<ReviewsPage client:load />
+</MainLayout>

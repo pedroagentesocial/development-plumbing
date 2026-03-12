@@ -1,0 +1,17 @@
+---
+import MainLayout from '../layouts/MainLayout.astro';
+import { ServiceAreasPage } from '../components/react/pages/StandardPages';
+---
+
+<MainLayout
+	title="Utah Plumbing Service Areas | Salt Lake City, Provo, Ogden, Sandy, and More"
+	description="Explore Utah service areas including Salt Lake City, West Valley City, Provo, Orem, Sandy, Ogden, St. George, Layton, South Jordan, and Lehi."
+	pathname="/service-areas"
+	serviceSchema={{
+		name: 'Utah Plumbing Service Areas',
+		description:
+			'Local plumbing coverage across Utah cities with emergency response, same-day service, and residential and commercial support.'
+	}}
+>
+	<ServiceAreasPage client:load />
+</MainLayout>

@@ -1,0 +1,17 @@
+---
+import MainLayout from '../layouts/MainLayout.astro';
+import { ServicesPage } from '../components/react/pages/StandardPages';
+---
+
+<MainLayout
+	title="Utah Plumbing Services | Emergency, Same-Day, Residential & Commercial"
+	description="Explore Utah plumbing services for emergency calls, same-day repair, drain cleaning, water heater issues, leak detection, sewer line work, and commercial needs."
+	pathname="/services"
+	serviceSchema={{
+		name: 'Plumbing Services in Utah',
+		description:
+			'Emergency and same-day plumbing services in Utah including drain cleaning, water heater, leak detection, sewer line, and commercial plumbing.'
+	}}
+>
+	<ServicesPage client:load />
+</MainLayout>

@@ -1,0 +1,17 @@
+---
+import MainLayout from '../layouts/MainLayout.astro';
+import { SewerLinePage } from '../components/react/pages/StandardPages';
+---
+
+<MainLayout
+	title="Sewer Line Repair in Utah | Camera Inspection, Repair & Replacement"
+	description="Utah sewer line service for backups, recurring clogs, and pipe failures with video diagnostics, targeted repair, and full replacement options."
+	pathname="/sewer-line"
+	serviceSchema={{
+		name: 'Sewer Line Repair in Utah',
+		description:
+			'Sewer line inspection, repair, and replacement in Utah using camera diagnostics for residential and commercial properties.'
+	}}
+>
+	<SewerLinePage client:load />
+</MainLayout>

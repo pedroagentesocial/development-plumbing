@@ -1,0 +1,59 @@
+---
+import '../styles/global.css';
+import en from '../i18n/en.json';
+import { buildCanonical, buildFaqSchema, buildLocalBusinessSchema, buildServiceSchema } from '../lib/seo';
+
+interface Props {
+	title: string;
+	description: string;
+	pathname: string;
+	faqSchema?: boolean;
+	serviceSchema?: {
+		name: string;
+		description: string;
+	};
+	noindex?: boolean;
+}
+
+const { title, description, pathname, faqSchema = false, serviceSchema, noindex = false } = Astro.props;
+const canonical = buildCanonical(pathname);
+const baseUrl = import.meta.env.BASE_URL;
+const localBusiness = buildLocalBusinessSchema();
+const faq = faqSchema ? buildFaqSchema(en.home.faq) : null;
+const service = serviceSchema ? buildServiceSchema({ ...serviceSchema, pathname }) : null;
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>{title}</title>
+		<meta name="description" content={description} />
+		<meta name="robots" content={noindex ? 'noindex,nofollow' : 'index,follow'} />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet" />
+		<link rel="canonical" href={canonical} />
+		<link rel="icon" type="image/svg+xml" href={`${baseUrl}favicon.svg`} />
+		<link rel="icon" href={`${baseUrl}favicon.ico`} />
+		<meta property="og:type" content="website" />
+		<meta property="og:site_name" content="Summit Flow Plumbing" />
+		<meta property="og:title" content={title} />
+		<meta property="og:description" content={description} />
+		<meta property="og:url" content={canonical} />
+		<meta property="og:image" content="https://images.unsplash.com/photo-1611419010196-a360856fc42f?auto=format&fit=crop&w=1600&q=80" />
+		<meta property="og:locale" content="en_US" />
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:title" content={title} />
+		<meta name="twitter:description" content={description} />
+		<meta name="twitter:image" content="https://images.unsplash.com/photo-1611419010196-a360856fc42f?auto=format&fit=crop&w=1600&q=80" />
+		<meta name="theme-color" content="#0a1d3a" />
+		<script is:inline type="application/ld+json" set:html={JSON.stringify(localBusiness)} />
+		{faq && <script is:inline type="application/ld+json" set:html={JSON.stringify(faq)} />}
+		{service && <script is:inline type="application/ld+json" set:html={JSON.stringify(service)} />}
+	</head>
+	<body class="font-sans">
+		<slot />
+	</body>
+</html>

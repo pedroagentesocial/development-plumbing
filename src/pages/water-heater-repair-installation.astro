@@ -1,0 +1,17 @@
+---
+import MainLayout from '../layouts/MainLayout.astro';
+import { WaterHeaterPage } from '../components/react/pages/StandardPages';
+---
+
+<MainLayout
+	title="Water Heater Repair & Installation in Utah | Tank and Tankless"
+	description="Utah water heater specialists for no-hot-water emergencies, tank and tankless repair, replacement planning, and safe code-compliant installation."
+	pathname="/water-heater-repair-installation"
+	serviceSchema={{
+		name: 'Water Heater Repair and Installation in Utah',
+		description:
+			'Water heater repair and installation in Utah for tank and tankless systems, including same-day diagnostics and replacement.'
+	}}
+>
+	<WaterHeaterPage client:load />
+</MainLayout>

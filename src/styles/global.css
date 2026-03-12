@@ -1,0 +1,134 @@
+@import "tailwindcss";
+@plugin "tailwindcss-animate";
+
+@theme {
+	--font-sans: "Manrope", "Inter", "Segoe UI", "Roboto", sans-serif;
+	--color-brand-50: #eef5ff;
+	--color-brand-100: #dcecff;
+	--color-brand-500: #1f4fa3;
+	--color-brand-600: #173e82;
+	--color-brand-700: #112f63;
+	--color-brand-900: #0a1d3a;
+	--color-accent-500: #ea7a2c;
+	--color-accent-600: #d4661b;
+	--color-accent-100: #fff1e6;
+	--color-slate-950: #07111f;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	@apply bg-slate-50 text-slate-800 antialiased;
+	background-image:
+		radial-gradient(circle at 10% 10%, rgba(31, 79, 163, 0.08), transparent 30%),
+		radial-gradient(circle at 90% 0%, rgba(234, 122, 44, 0.08), transparent 26%);
+}
+
+a,
+button,
+input,
+textarea,
+select {
+	@apply focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent-500 focus-visible:ring-offset-2;
+}
+
+.section-shell {
+	@apply mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8;
+}
+
+.card {
+	@apply rounded-3xl border border-slate-200/80 bg-white p-6 shadow-[0_8px_30px_rgba(2,24,57,0.08)];
+}
+
+.eyebrow {
+	@apply text-xs font-bold uppercase tracking-[0.18em] text-brand-600;
+}
+
+.h1 {
+	@apply text-4xl font-extrabold leading-[1.05] text-slate-950 sm:text-5xl lg:text-6xl;
+}
+
+.h2 {
+	@apply text-3xl font-extrabold leading-tight text-slate-950 sm:text-4xl;
+}
+
+.muted {
+	@apply text-slate-600 leading-relaxed;
+}
+
+.surface-dark {
+	@apply rounded-[2rem] border border-white/10 bg-slate-950 text-white shadow-[0_30px_80px_rgba(2,6,23,0.45)];
+}
+
+.chip {
+	@apply inline-flex items-center rounded-full border border-slate-200 bg-white px-3 py-1.5 text-xs font-semibold text-slate-700;
+}
+
+.input-premium {
+	@apply w-full rounded-2xl border border-slate-300 bg-white px-4 py-3 text-sm text-slate-900 placeholder:text-slate-400 transition focus:border-brand-500 focus:shadow-[0_0_0_4px_rgba(31,79,163,0.12)];
+}
+
+.prefooter-cta-grid {
+	@apply grid gap-5 lg:grid-cols-[1.15fr_0.85fr] lg:items-stretch;
+}
+
+.prefooter-contact-card {
+	@apply h-full rounded-[2rem] border border-slate-200/90 bg-white p-6 shadow-[0_16px_44px_rgba(2,24,57,0.1)] md:p-7;
+}
+
+.reviews-marquee-shell {
+	@apply relative overflow-hidden rounded-[2rem];
+	mask-image: linear-gradient(to right, transparent 0, black 7%, black 93%, transparent 100%);
+}
+
+.reviews-marquee-track {
+	@apply flex w-max items-start gap-5 py-1 motion-safe:hover:[animation-play-state:paused];
+	animation: reviews-marquee 62s linear infinite;
+	will-change: transform;
+}
+
+.reviews-marquee-card {
+	@apply relative w-[88vw] shrink-0 overflow-hidden rounded-3xl border border-slate-200/90 bg-white p-5 shadow-[0_18px_48px_rgba(2,24,57,0.12)] sm:w-[410px] lg:w-[430px];
+}
+
+.reviews-marquee-card::before {
+	content: "";
+	position: absolute;
+	inset: 0 auto auto 0;
+	height: 2px;
+	width: 100%;
+	background: linear-gradient(90deg, rgba(31, 79, 163, 0.55) 0%, rgba(234, 122, 44, 0.35) 60%, rgba(16, 185, 129, 0.22) 100%);
+}
+
+.reviews-marquee-card::after {
+	content: "";
+	position: absolute;
+	inset: auto -60px -70px auto;
+	height: 170px;
+	width: 170px;
+	border-radius: 999px;
+	background: radial-gradient(circle, rgba(31, 79, 163, 0.11) 0%, rgba(31, 79, 163, 0) 70%);
+}
+
+@keyframes reviews-marquee {
+	from {
+		transform: translate3d(0, 0, 0);
+	}
+	to {
+		transform: translate3d(calc(-33.333% - 0.4rem), 0, 0);
+	}
+}
+
+@media (max-width: 768px) {
+	.reviews-marquee-track {
+		animation-duration: 52s;
+	}
+}
+
+@media (prefers-reduced-motion: reduce) {
+	.reviews-marquee-track {
+		animation: none;
+	}
+}
